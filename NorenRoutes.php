@@ -37,8 +37,8 @@ class NorenRoutes {
     }
 }
 
-$baseUrl = 'http://matsya.kambala.co.in:9959/NorenWClient'; // Replace with your  API URL
-$websocketUrl="ws://matsya.kambala.co.in:9657/NorenWS/";  // Replace with your websocket URL
+$baseUrl = 'http://rama.kambala.co.in/NorenWClient'; // Replace with your  API URL
+$websocketUrl="ws://rama.kambala.co.in/NorenWS/";  // Replace with your websocket URL
 $norenRoutes = new NorenRoutes($baseUrl); 
 
 ?>
